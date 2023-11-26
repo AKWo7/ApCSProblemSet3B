@@ -75,7 +75,8 @@ public class RPC {
     private static String determineResult(String playerChoice, String compChoice){
         if(playerChoice.equalsIgnoreCase(compChoice)){
             return "Unbelievable! They have tied!";
-        }else if ((playerChoice.equalsIgnoreCase("Rock") && compChoice.equalsIgnoreCase("Crossblades")||playerChoice.equalsIgnoreCase("Crossblades") && compChoice.equalsIgnoreCase("Paper")|| playerChoice.equalsIgnoreCase("Paper") && compChoice.equalsIgnoreCase("Rock"))){
+        }
+        else if ((playerChoice.equalsIgnoreCase("Rock") && compChoice.equalsIgnoreCase("Crossblades")||playerChoice.equalsIgnoreCase("Crossblades") && compChoice.equalsIgnoreCase("Paper")|| playerChoice.equalsIgnoreCase("Paper") && compChoice.equalsIgnoreCase("Rock"))){
             return "The player wins the kingdom!";
         }
         else {
